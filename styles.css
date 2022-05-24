@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+    margin: 5px;
+    padding: 0;
+
+    /*Header */
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    background-color:#fafafa;
+}
+
+.love_logo {
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.love_logo :link {
+    color: #000000;
+}
+
+.love_logo:hover {
+    color: #0000ff;
+}
+
+.love_logo:active{
+    color: #000000;
+}
+
+.love_logo:visited {
+    color: #000000;
+}
