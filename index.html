@@ -18,25 +18,65 @@
         <nav class ="navigation">
             <ul>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Family</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Staff</a></li>
             </ul>
         </nav>
     </div>
     </header>
     <!--About-->
     <div class="about">
-        <h1>About</h1>
-        <p>The play palace is for children and adults to take that much needed
+        <p>Mia's play palace is for children and adults to take that much needed
              break from the reality and enjoy a day of fun filled activities! Our activities
              go vary from being playful and active, to discovering and learning new things
              in our STEM activities! We cater to private parties and birthdays, and we have new 
              special presentations and activities every month! Come join us for a day of excitement! 
-             We will see you there!! <br />
-             Have any questions? Please feel free to contact us via e-mail or talk with us! 
+             We will see you there!! <br /> <br />
+             Have any questions? Please feel free to contact us via e-mail or talk with us! <br />
+             <button type="button" class="contact_us">Contact us!</button>
         </p>
+        <div class="finger_paint"><img src="./images/fingerpaint.webp" alt="Girl with finger paint" height="400" width="600"> </div>
     </div>
+    <div class="activites">
+        <h1>Activities</h1>
+        <p>We have multiple ways kids can enjoy their time with at Mia's play palace. We have activities for children 2-16 and make sure
+        each age group has something that they would enjoy and learn from. In our facility we have an arcade, a library, a theater for 
+        shows, and we have our awesome restaurant that serves the best burgers in the U.S! We want to make sure your child has fun, makes 
+        new friends in the process and leaves with great memories!</p> 
+        <div class="fun_pics">
+            <img src="./images/arcade-bikes.jpg" alt="Kids playing motorcycle video game" height="200" width="300">
+            <img src="./images/froty_play.jpg" alt="frosty the snowman play" height="200" width="300">
+            <img src ="./images/STEM_project.jpg" alt="kids on computer" height="200" width="300">
+        </div>
+    </div>
+    <div class="staff">
+        <h1>Staff</h1>
+        <p>Our staff  make sure that the park is always safe and clean for families to enjoy. All
+            of our staff are first aid certified and properly trained for any emergency situation. 
+        </p>
+        <div class="staff_pics">
+            <img src="./images/staff1.jpg" alt="staff building" height="200" width="300">
+            <img src="./images/staff2.jpg" alt="staff photo" height="200" width="300">
+        </div>
+    </div>
+    <div class="contact">
+        <h1>Contact Us!</h1>
+        <form>
+            First name: <input type = "text" name = "first_name" />
+         <br />
+         Last name: <input type = "text" name = "last_name" />
+            <br />
+            <label>Phone:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br />
+            <label>Email:</label>
+	<input type="email" name="email" id="email"/> <br />
+    <textarea class="comment">Type your comment here.</textarea>
+    <br />
+    <input type="submit" value="Submit">
+        </form>
+    </div>
+
     
 </body>
 </html>
