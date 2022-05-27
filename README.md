@@ -2,8 +2,6 @@
 
 click [here](https://calvinalee2006.github.io/Mia-s-Play-palace/) to see my webpage!
 
-![calculator](/images/Screenshot (48).png)
-
 ### Summary
 This was a simple page from Codecademy that had me make a made up business with Html and CSS. It was an overall easy project, but somehow as I was making it i was always questioning "can this idea be better?"
 
